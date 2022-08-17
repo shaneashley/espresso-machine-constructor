@@ -1,0 +1,24 @@
+
+
+// Create an espresso machine class that makes machines with 4 properties and 3 methods
+
+class EspressoMachine{
+  constructor(color, size, button, shape){
+  this.color = color
+  this.size = size
+   this.button = button
+    this.shape = shape
+  }
+  turnOn(){
+    console.log('Good day, I am now on!')
+  }
+  steam(){
+      console.log('ITTTSS SUMMMEEERRR ONNN SAAAALEE')
+}
+brew(){ 
+    console.log('Good stuff coming your way')
+}
+}
+
+
+let gaggia = new EspressoMachine("black", "large", true, "round")
